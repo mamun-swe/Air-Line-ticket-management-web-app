@@ -1,0 +1,56 @@
+
+body{
+    background: #f8f8f8;
+}
+.flex-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.bookCard{
+    font-family: 'Nunito', sans-serif;
+}
+.bookCard .card{
+    min-height: 180px;
+    border: 1px solid #f8f8f8;
+}
+.bookCard .card:hover{
+    border: 1px solid #e0dddd;
+}
+.bookCard .btn{
+    font-size: 14px;
+}
+.float-button{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 1;
+}
+
+@media(max-width: 576px){
+    header .main h1{
+        font-size: 25px;
+    }
+}
+
+@media(min-width: 576px){
+    header .main h1{
+        font-size: 30px;
+    }
+}
+@media(min-width: 768px){
+    header .main h1{
+        font-size: 40px;
+    }
+}

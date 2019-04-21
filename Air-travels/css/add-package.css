@@ -1,0 +1,48 @@
+
+body{
+
+    font-family: 'Nunito Sans', sans-serif;
+    background: url('../images/graphic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.flex-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.89);
+}
+.main .card{
+    margin-top: 10vh;
+    background: none;
+}
+.main .card-header{
+    background: none;
+}
+.form-control{
+    font-size: 14px;
+    border-radius: 0px;
+    background: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.btn{
+    font-size: 15px;
+}

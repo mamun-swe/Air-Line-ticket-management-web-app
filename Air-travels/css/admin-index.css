@@ -1,0 +1,88 @@
+
+    body{
+        background: url('../images/biman.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+    }
+    .flex-center {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 100%;
+    }
+    .container-fluid{
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.774);
+    }
+    .box h1{
+        color: #0099CC;
+        font-family: 'Archivo Black', sans-serif;
+    }
+    .box p{
+        font-size: 15px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .btn{
+        padding: 6px 18px;
+        border: 1px solid #0099CC;
+        transition: 0.3s;
+        border-radius: 0px;
+        box-shadow: none;
+        font-size: 16px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        color: #000;
+        font-family: 'Nunito', sans-serif;
+        background: rgba(255, 255, 255, 0.349);
+    }
+    .btn:focus{
+        box-shadow: none;
+    }
+    .btn:hover{
+        color: #ffffff;
+        background: #0099CC;
+    }
+    small, input{
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    @media(max-width: 576px){
+        .box h1{
+            font-size: 35px;
+        }
+        .card{
+            width: 96vw;
+        }
+    }
+    @media(min-width: 576px){
+        .box h1{
+            font-size: 60px;
+        }
+        .box p{
+            letter-spacing: 5px;
+        }
+        .card{
+            width: 450px;
+        }
+    }
+    @media(min-width: 768px){
+        .box h1{
+            font-size: 80px;
+        }
+        .box p{
+            letter-spacing: 7px;
+        }
+    }

@@ -1,0 +1,47 @@
+
+body{
+    background: #f8f8f8;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.flex-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+}
+.headBoxs .col-12{
+    min-height: 200px;
+}
+.headBoxs .card h2{
+    font-family: 'Fugaz One', cursive;
+}
+.headBoxs .card .btn{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.headBoxs .col-12{
+    background: #ffffff;
+    border: 1px solid #f8f8f8;
+}
+.packages .card{
+    background: #ffffff;
+    border: 1px solid #f8f8f8;
+    transition: 0.3s;
+    font-family: 'Nunito', sans-serif;
+}
+.packages .card:hover{
+    border: 1px solid #dfdbdb;
+}
+
+.packages .btn{
+    font-size: 15px;
+}
